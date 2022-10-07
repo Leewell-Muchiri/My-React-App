@@ -1,6 +1,6 @@
 import React from 'react'
 
-function CakeCatalog() {
+function CakeList() {
   return (
     <div>
       
@@ -8,4 +8,5 @@ function CakeCatalog() {
   )
 }
 
-export default CakeCatalog;
+export default CakeList
+

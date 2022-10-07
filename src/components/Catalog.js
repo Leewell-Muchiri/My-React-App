@@ -1,17 +1,11 @@
-import React from 'react';
-import cakes from "../data";
+import React from 'react'
 
-const Catalog = ({cakes}) => {
+function Catalog() {
   return (
-    <div className='section-center'>
-       return (
-           <article key={flavor} className="cake">
-           <img src={image} alt={flavor} className="cakepic" />
-          <h2></h2>
-        </article>
-      )
+    <div>
+      Our catalog
     </div>
   )
 }
 
-export default Catalog;
+export default Catalog
