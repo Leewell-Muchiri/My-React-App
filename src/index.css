@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+nav {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: blue;
+    border-bottom: 2px blue;
+    transition: 0.1s;
+}
+
+#home {
+    height: 50vh;
+    min-height: 400px;
+    background-color: rgb(137, 255, 255);
+}
+
+nav a:hover,
+nav a:active {
+  color: aqua;
+  border-bottom: 2px aqua;
+}
